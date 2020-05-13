@@ -1,0 +1,26 @@
+Mon May  4 15:11:21 CDT 2020
+
+below does not work on 5/4/2020 - this will not work on elementary 0.5 version
+
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+
+Install the .NET Core SDK
+
+sudo apt-get update
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install dotnet-sdk-3.1
+
+Install the ASP.NET Core runtime
+sudo apt-get update
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install aspnetcore-runtime-3.1
+
+Install the .NET Core runtime
+sudo apt-get update
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install dotnet-runtime-3.1
+
